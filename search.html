@@ -5,13 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - My Octopress Blog</title>
+  <title>My Octopress Blog</title>
   <meta name="author" content="Derek Hubbard">
 
   
-  <meta name="description" content=" Blog Archive 2013 Zombies
-Apr 07 2013 posted in test1 2012 Intro
-Jul 22 2012 posted in self Recent Posts Zombies Intro ">
+  <meta name="description" content="Search Results $('#search_results').tapir({ 'token': '', 'complete' : function() { document.getElementById('search_loading').style.display="none &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +18,7 @@ Jul 22 2012 posted in self Recent Posts Zombies Intro ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://derekhubbard.github.com/derekhubbard/blog/archives">
+  <link rel="canonical" href="http://derekhubbard.github.com/derekhubbard/search.html">
   <link href="/derekhubbard/favicon.png" rel="icon">
   <link href="/derekhubbard/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/derekhubbard/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
@@ -66,80 +64,21 @@ Jul 22 2012 posted in self Recent Posts Zombies Intro ">
 </nav>
   <div id="main">
     <div id="content">
-      <div>
-<article role="article">
-  
-  <header>
-    <h1 class="entry-title">Blog Archive</h1>
-    
-  </header>
-  
-  <div id="blog-archives">
-
-
-
-  
-  <h2>2013</h2>
-
-<article>
-  
-<h1><a href="/derekhubbard/blog/2013/04/07/zombies/">Zombies</a></h1>
-<time datetime="2013-04-07T00:39:00-04:00" pubdate><span class='month'>Apr</span> <span class='day'>07</span> <span class='year'>2013</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/derekhubbard/blog/categories/test1/'>test1</a></span>
-</footer>
-
-
-</article>
-
-
-
-  
-  <h2>2012</h2>
-
-<article>
-  
-<h1><a href="/derekhubbard/blog/2012/07/22/intro/">Intro</a></h1>
-<time datetime="2012-07-22T08:23:00-04:00" pubdate><span class='month'>Jul</span> <span class='day'>22</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/derekhubbard/blog/categories/self/'>self</a></span>
-</footer>
-
-
-</article>
-
+      <h1 class="entry-title"><center>Search Results</center></h1>
+<div id="search_loading" style="margin: 40px 0">
+    <center><img src="/derekhubbard/images/loading.gif"></center>
 </div>
 
-  
-</article>
-
+<script type="text/javascript" src="/derekhubbard/javascripts/jquery-tapir.js"></script>
+<div id="search_results" style="display:none">
+<br>
 </div>
-
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/derekhubbard/blog/2013/04/07/zombies/">Zombies</a>
-      </li>
-    
-      <li class="post">
-        <a href="/derekhubbard/blog/2012/07/22/intro/">Intro</a>
-      </li>
-    
-  </ul>
-</section>
-
-
-
-
-
-  
-</aside>
+<script>
+         $('#search_results').tapir({
+             'token': '',
+             'complete' : function() { document.getElementById('search_loading').style.display="none"; }
+         });
+</script>
 
 
     </div>
